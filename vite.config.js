@@ -5,5 +5,5 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   server: {host: true},
-  base: '/interactive-rating-component'
+  base: '/interactive-rating-component/'
 })
